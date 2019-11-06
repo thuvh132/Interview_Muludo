@@ -9,7 +9,6 @@
         >
           <div class="drag-inner-list" :data-id="group.id">
             <v-card
-              max-width="300"
               tile
               class="drag-item" v-for="item in group.items" :key="item.id" :data-id="item.id"
             >
