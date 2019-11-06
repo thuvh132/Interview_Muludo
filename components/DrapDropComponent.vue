@@ -120,6 +120,10 @@ export default {
     .v-list--dense {
       padding: 0;
     }
+    .v-subheader {
+      cursor: pointer;
+      font-weight: bold;
+    }
   }
 }
 @keyframes nodeInserted {
