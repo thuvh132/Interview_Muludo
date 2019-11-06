@@ -1,0 +1,33 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "interview",
+  "author": "Van Hong Thu",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/vuetify": "^1.9.0",
+    "jquery": "^3.4.1",
+    "nuxt": "^2.0.0",
+    "vue-draggable": "^2.0.3",
+    "vuetify": "^2.1.9"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "deepmerge": "^4.2.2",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "fibers": "^4.0.2",
+    "sass": "^1.23.3",
+    "sass-loader": "^8.0.0"
+  }
+}
